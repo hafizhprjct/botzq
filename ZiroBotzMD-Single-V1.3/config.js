@@ -52,29 +52,38 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://youtube.com/@Ziro-MD_Official' //Link Instagrammu
-global.sgh = 'https://youtube.com/@Ziro-MD_Official' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/CrVpOBoWyi5Aj1l1LqPlMW'
-global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.syt = 'https://youtube.com/@Ziro-MD_Official'
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
+global.sig = 'https://www.instagram.com/hfizh22/' //Link Instagrammu
+global.sgh = 'https://github.com/hafizhprjct' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/JQTVwyYnQNW0ljAncX2Kpf'
+global.sdc = 'https://discord.gg/XHM8XbqHV6' //Isi Pake Link Discordmu Kalo Gada Biarin aja
+global.snh = 'https://youtube.com/@hafizhflash' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '081228070013' //Nomor Danamu
-global.ppulsa = '081232813734' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.co/ZiroMD' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '085651307830'
+global.povo = '085651307830'
+global.pgopay = '085651307830'
+global.pshopeepay = '085651307830'
+global.plinkaja = '085651307830'
+global.ppulsa = '085651307830'
+global.ppulsa2 = '081354060278'
+global.psaweria = 'saweria.com/HafizhFlash'
+global.ptrakteer = 'https://trakteer.id/HafizhFlash22'
+global.pqris = 'https://telegra.ph/Donasi-Melalui-QRIS-01-22'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62882007157628' //Nomor Bot
-global.nomorown = '6281228070013' //Nomor Owner
-global.namebot = 'ZiroBOTz-MD⚡' //Nama Bot
-global.nameown = '༄ᶜZIRO⚡☆࿐' // Nama Owner
-global.wame = 'https://api.whatsapp.com/send?phone=+6281228070013'
+global.nomorbot = '6285171662264' //Nomor Bot
+global.nomorown = '6285651307830' //Nomor Owner
+global.namebot = 'HaFlazh-BOT' //Nama Bot
+global.nameown = 'Hafizh' // Nama Owner
+global.wame = 'https://api.whatsapp.com/send?phone=+6285651307830'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281228070013', '❦ ༄ᶜZIRO⚡☆࿐ 🎐', true] //Ganti jd nomormu sama Namamu
+  ['6285651307830'],
+  ['6281354060278'],
+  ['6285171662264'],
+  ['6285651307830', 'Hafizh', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -141,13 +150,13 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᚯZiroBOTz-MDメ汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ZiroBOTz-MD˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ZiroBOTz-MD'
-global.namedoc = 'ZiroBOTz-MD⚡' //Main Name Menu Document
+global.wm = 'HaFlazh-BOT' //Main Watermark
+global.wm2 = 'HaFlazh-BOT⚡'
+global.wm3 = '⫹⫺ HaFlazh-BOT'
+global.namedoc = 'HaFlazh-BOT⚡' //Main Name Menu Document
 global.botdate = `⫹⫺ Day's: ${week} ${date}`
 global.bottime = `ᴛɪᴍᴇ: ${wktuwib}`
-global.titlebot = '🎋 ┊ ZiroBOTz ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
+global.titlebot = '🎋 ┊ HaFlazh-BOT⚡ ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
 global.author = global.wm
 global.emojis = pickRandom(["👑", "🎗", "️🗿", "🕹", "️💡", "🪄", "🎈", "🎊", "🔖", "📍", "❤", "‍🔥", "💤", "💭", "🕚", "💬", "🚩", "🎐", "🍃", "🌿", "🥀", "✨", "⚡", "☂️"])
 
@@ -396,13 +405,11 @@ function Anime() {
  return Anime
 }
 /*============== TEXT ==============*/
-global.wait = pickRandom(["「▰▰▰▱▱▱▱▱▱▱」ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ..."])
-global.md = pickRandom(["_In progress, please wait..._", "Wᴀɪᴛɪɴɢ..", "Tunggu Sebentar", "Tunggu Sabar Ya sayang 😭"])
+global.wait = pickRandom(["Sabar ngabs 98% 𝚠𝚊𝚒𝚝!!", "Wᴀɪᴛɪɴɢ", "「▰▰▰▱▱▱▱▱▱▱」ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ..."])
 global.eror = '```404 error```'
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 812 2807 0013'
-
+global.phn = '+62 856 5130 7830'
 //Danied\\
 
 global.danied = pickRandom(["✘ E̶̶r̶̶o̶̶r̶̶r̶̶⒋🄀⒋","A̶̶k̶̶s̶̶e̶̶s̶̶ D̶̶i̶̶t̶̶o̶̶l̶̶a̶̶k̶̶","⚠️ A̶̶c̶̶s̶̶e̶̶s̶̶s̶̶ D̶̶a̶̶n̶̶i̶̶e̶̶d̶̶⚠️"])
@@ -453,7 +460,7 @@ global.hsquere = ['⛶','❏','⫹⫺']
 global.stickpack = '.'
 global.stickauth = `☂︎\nK\nE\nN\nZ\nO\n-\nB\nO\nT\n✦\n\n⫹⫺ Whatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Sticker Request By '
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ZiroBOTz-MD ʙᴏᴛᴢ'
+global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ HaFlazhBOT-MD ʙᴏᴛᴢ'
 
 global.multiplier = 38 // The higher, The harder levelup
 
