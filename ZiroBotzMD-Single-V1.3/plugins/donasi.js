@@ -2,11 +2,17 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let teks = `
 ┌─「 Donasi • Pulsa 」
 │ • *Indosat:* [${global.ppulsa}]
+│ • *Telkomsel:* [${global.ppulsa2}]
 ❏────
-
 ┌─「 Donasi • Non Pulsa 」
-│ • *Dana:* [${global.pdana}]
-│ • *Saweria:* [${global.psaweria}]
+│ • *Dana :* [${global.pdana}]
+│ • *OVO :* [${global.povo}]
+│ • *GoPay :* [${global.pgopay}]
+│ • *ShopeePay :* [${global.pshopeepay}]
+│ • *LinkAja :* [${global.plinkaja}]
+│ • *Saweria :* [${global.psaweria}]
+│ • *Trakteer :* [${global.ptrakteer}]
+│ • *QRIS :* [${global.pqris}]
 ❏────
 `
 
